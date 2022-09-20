@@ -1,0 +1,522 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;500&family=Poppins:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,700&display=swap');
+
+
+/* ==============================================
+=====Index Of====
+1.Basic Style
+2. Header Style
+3. Hero Style
+4. Cliend Style
+5. FeactureList
+6. Smart Style
+7. Learn Style
+8. Group Style
+09.Pricing Style
+10.Testimonial Style
+11.Faq Style
+12. Download start
+13.Footer Style
+================================================= */
+/* ==============================================
+1. Basic Style
+================================================= */
+body{
+    font-family: 'Inter', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+}
+:root{
+    --main-color:#242f51;
+}
+.mybtn{
+    background-color: #2500f9;
+    font-size: 16px;
+    font-family: 800;
+    color:#ffffff;
+    padding: 20px 40px;
+}
+.mybtn:hover{
+    background-color: #fda925;
+    color: white;
+}
+p{
+    margin: 0;
+}
+section{
+    padding: 70px 0px 30px 0px;
+}
+ul,li{
+    margin: 0;
+    padding: 0;
+}
+/* ==============================================
+2. Header Style
+================================================= */
+
+header{
+    height: 130px;
+    display:flex;
+    align-items: center;
+    /* background-color: aqua; */
+}
+header .navbar-brand h2{
+    color:#fcae61 ;
+    font-weight: 700;
+    font-size:30px;
+}
+header .navbar-brand h2 span{
+    color: #242f51;
+    font-weight: 700;
+    font-size:30px;
+}
+
+header .navbar-brand{
+    font-size: 30px;
+    font-weight: 800;
+   
+}
+header .navbar-brand span{
+    color: var(--main-color);
+}
+header .nav-link{
+    color:var(--main-color);
+    margin: 0px 15px;
+}
+header .nav-link:hover,header .nav-link .active{
+    color: #fda925 ;
+}
+/* ==============================================
+3. Hero Style
+================================================= */
+#hero{
+    background: url(asset/img/Layer\ 5.png);
+    height:100vh;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    position: relative;
+}
+#hero .htop{
+    background-color: #e1eaed;
+}
+#hero .htop i{
+    padding: 12px;
+    background-color: #fda925;
+    color: #ffffff;
+    font-size: 18px;
+}
+#hero .htop p{
+    margin-left: 14px;
+}
+#hero .hero-text h2{
+    font-size: 60px;
+    font-weight: 600;
+    color: #242f51;
+    padding: 30px 0px;
+}
+#hero p{
+    font-weight: 600;
+    font-size: 18px;
+    color: #616368;
+
+}
+#hero .hbox{
+    padding: 40px 0px;
+}
+#hero .mvin{
+    position: absolute;
+}
+#hero .in1{
+    top: 0;
+    left:60px;
+    color:#000000;
+}
+#hero .in2{
+    bottom: 0;
+    left: 250px;
+    color: RED;
+
+}
+/* ==============================================
+4. Cliend Style
+================================================= */
+#ourclind{
+    padding: 140px 0px;
+}
+#ourclind .title{
+    margin-bottom: 40px;
+    font-size:16px;
+    color: #242f51;
+}
+/* ==============================================
+5. FeactureList
+================================================= */
+#feacture{
+    padding: ;
+}
+#feacture .header{
+
+}
+#feacture .header h2{
+  font-size: 36px;
+  font-weight: 600;
+  color: #242f51;  
+  margin-bottom: 40px;
+}
+#feacture .header p{
+    font-size: 16px;
+    color: #616368;
+    margin-bottom: 100px;
+}
+/* ==============================================
+6. Smart Style
+================================================= */
+#smart .smart-header .text1 h2{
+    font-size: 40px;
+    font-weight: 600;
+    color: #242f51;
+}
+#smart .smart-header .text2 p{
+    color: #616368;
+    font-size: 16px;
+    padding-left: 50px;
+}
+
+#smart .smart-header .col-md-6:last-child{
+    border-left: 3px solid  rgba(0,0,0,0.2);
+}
+#smart .smart-body{
+    padding:50px 0px;
+}
+#smart .smart-body .text{
+    font-size: 20px;
+    font-weight: 600;
+    padding: 30px 0px;
+    color:;
+}
+#smart .smart-body .text-1 h4{
+    color: #f55767;
+}
+#smart .smart-body p{
+    color: #616368;
+    font-size: 16px;
+    padding: 30px 0px;
+}
+#smart .smart-design{
+    padding: 40px 0px;
+}
+#smart .smart-design h4{
+    margin-top: 130px;
+    font-size: 36px;
+    font-weight: 600;
+    color: #242f51;
+}
+#smart .smart-design p{
+    padding: 50px 0px;
+    color: #616368;
+}
+/* ==============================================
+1. Learn Style
+================================================= */
+#learn .learn-header h2{
+    margin: 50px 0px;
+    font-size: 36px;
+    font-weight: 600;
+    color: #242f51;
+
+}
+#learn .learn-header p{
+    margin: 70px 0px;
+    color: #616368;
+}#learn .leard-body .text h4{
+    font-size: 20px;
+    color: #242f51;
+    font-weight: 700;
+    padding: 100px 0px;
+}
+/* ==============================================
+8. Group Style
+================================================= */
+#group{
+    background-image: url("asset/img/layer51.png");
+    background-repeat: no-repeat;
+    background-size: 37%;
+    background-position:bottom right;
+    padding: 115px 0px;
+}
+#group .group-header h2{
+    font-size: 36px;
+    font-weight: 700;
+    color:#242f51;
+}
+#group .group-header h2 p{
+    color: #616368;
+}
+#group .group-body h4{
+    font-size: 20px;
+    color: #242f51;
+    font-weight: 700;
+}
+#group .group-body a{
+    margin-top: 40px;
+}
+/* ==============================================
+09. Pricing Style
+================================================= */
+#pricing{
+    width: 55%;
+}
+#pricing .pricing-head h2{
+    font-size: 36px;
+    font-weight: 700;
+    color: #242f51;
+}
+#pricing .pricing-head p{
+    color: #616368;
+}
+#pricing .pricinglist{
+    margin-bottom: 50px;
+}
+#pricing .card{
+    border: none;
+}
+#pricing .card .card-header{
+    background: linear-gradient(to bottom, #fefefe, #f4f7f9);
+    padding: 40px 10px;
+}
+#pricing .card .price{
+    font-size: 60px;
+    font-weight: 600;
+    color: #242f51;
+}
+#pricing .card .price span{
+    color: #999ca5;
+    font-size: 18px;
+}
+#pricing .card h4{
+    font-size: 20px;
+    font-weight: 600;
+    color: #242f51;
+
+}
+#pricing .card p{
+    color:#999ca5;
+}
+#pricing .card .card-body{
+    background: linear-gradient(to bottom, #ffffff);
+}
+#pricing .card .card-body ul{
+    list-style-type: none;
+}
+#pricing .card .card-body ul li{
+    color: #999ca5;
+    line-height: 40px;
+    text-align: left;
+}
+#pricing .card{
+    margin-top: 40px;
+}
+#pricing .card .card-body a{
+    margin-top: 20px ;
+}
+#pricing .card .card-body .free{
+    display: block;
+    text-decoration: none;
+    padding: 30px 0px;
+}
+#pricing .nav{
+    display: block !important;
+}
+#pricing .card:hover{
+    border: 1px solid #ebebeb;
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.2);
+}
+#pricing .card{
+    border: 1px solid transparent;
+}
+/* ==============================================
+10. Testimonial Style
+================================================= */
+#testimonial{
+    background-image: url("asset/img/layer63.png");
+    background-repeat:no-repeat;
+    background-size: 40px;
+    background-position:left;
+}
+#testimonial .testimonial-img .img2{
+    margin-left: -32px;
+    margin-top: 100px;
+    width: 90%;
+}
+
+#testimonial .testimonial-img{
+    position: relative;
+}
+#testimonial .testimonial-img [class*="client"]{
+    position: absolute;
+}
+#testimonial .testimonial-img .client-1{
+    margin-top:35px;
+    margin-left:-70px;
+}
+#testimonial .testimonial-img .client-2{
+    margin-top: 0px;
+    margin-right: 260px;
+}
+#testimonial .testimonial-head{
+
+}
+#testimonial .testimonial-head h4{
+    color: #242f51;
+    font-weight: 600;
+    font-size: 36px;
+    padding: 40px 0px;
+}
+#testimonial .testimonial-head h4 p{
+    color: #616368;
+}
+#testimonial .testmonial-box .rating{
+    
+}
+#testimonial .testmonial-box .rating i{
+    color: #ffcc00;
+    padding:;
+}
+#testimonial .testmonial-box .testmonial-catagory{
+    
+}
+#testimonial .testmonial-box .testmonial-catagory h4 {
+    font-size: 20px;
+    font-weight: 600;
+    color: #242f51;
+}
+#testimonial .testmonial-box.testmonial-massage{
+
+}
+#testimonial .testmonial-box .testmonial-massage p{
+    color: #616368;
+}
+#testimonial .testmonial-box .clien-info{
+    display:flex;
+    justify-content: flex-start;
+}
+#testimonial .testmonial-box .clien-info .info-box{
+    margin-left: 20px;
+    margin-top: 17px;
+}
+#testimonial .testmonial-box .clien-info .info-box h4{
+    color: #242f51;
+    font-size: 18px;
+    font-weight: 600;
+}
+#testimonial .testmonial-box .clien-info .info-box p{
+    font-size: 18px;
+    color: #616368;
+}
+/* ==============================================
+11. Faq Style
+================================================= */
+#faq{
+    padding: 115px 0px;
+}
+#faq .section-head{
+    margin: 0 auto;
+    text-align: center;
+    width: 75%;
+}
+#faq .section-head h4{
+    color: #242f51;
+    font-weight: 600;
+    font-size: 40px;
+}
+#faq .section-head p{
+    color:#616368;
+}
+.accordion-button::after{
+    background-image: url("asset/img/plus.png");
+}
+.accordion-button:not(.collapsed)::after {
+    background-image: url("asset/img/minas.png");
+}
+#faq .accordion-item{
+    background-color: #f5f7fa;
+    margin: 15px 0px;
+}
+#faq .accordion-item .accordion-button{
+    background-color: #f5f7fa;
+    color:#242f51 ;
+    font-size:20px ;
+    font-weight: 600;
+}
+#faq .accordion-item .accordion-button:focus{
+    box-shadow: none;
+    border: none;
+}
+/* ==============================================
+12. Download Start
+================================================= */
+#download {
+
+}
+#download .text{
+    margin-top: 50px;
+}
+#download .text h1{
+    font-size: 40px;
+    font-weight:600;
+    color: #242f51;
+}
+#download .text p{
+    color: #616368;
+}
+#download .img{
+    margin-left: 2px;
+}
+#download .img .img1{
+    margin-left: 30px;
+}
+/* ==============================================
+13. Footer Start
+================================================= */
+#footer{
+    background-color: #09142e;
+    height: 500px;
+}
+#footer .text{
+    margin: 0 auto;
+    text-align: center;
+
+}
+#footer .text h2{
+    color: #eb7806;
+    font-size: 30px;
+    font-weight: 700;
+    padding-top:100px;
+
+}
+#footer .text h2 span{
+    color:#ffffff ;
+}
+#footer .nav{
+
+}
+#footer .nav .nav-item{
+    padding: 0px 15px;
+}
+#footer .nav .nav-item a{
+    color: #ffffff;
+    margin: 50px 0px;
+    text-align: center;
+}
+#footer .iconbox{
+    
+}
+#footer .iconbox i{
+    margin: 0px 15px;
+    color: #273043;
+    font-size: 40px;
+}
+#footer p{
+    color: #ffffff;
+    font-style: 14px;
+    padding: 60px 0px;
+}
